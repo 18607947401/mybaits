@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ch04-param" />
+        <module name="ch05-dynamic-sql" />
+        <module name="ch02" />
+        <module name="ch03-proxy-dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch01" target="8" />
+      <module name="ch02" target="1.7" />
+      <module name="ch03-proxy-dao" target="1.7" />
+      <module name="ch04-param" target="1.7" />
+      <module name="ch05-dynamic-sql" target="1.7" />
+      <module name="ch06-test" target="8" />
+      <module name="testdao" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
